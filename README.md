@@ -12,6 +12,10 @@ Solusi ini untuk membatasi akses ke Microsoft / Office 365 di Periode waktu tert
 
 • Ubah variabel yang berada di dalam file dan sesuaikan dengan data yang anda punya
 
+# Cara kerja Script
+Melakukan checking apakah Conditional Access dengan nama yang kita define sudah ada atau belum di tenant kita, jika belum maka akan dilakukan push config untuk menambahkan Conditional Access melalui Graph API dan jika sudah ada maka dilakukan penghapusan policy Conditional Access.
+
+
 # Images of how script works
 
 <img src="screenshots/post.PNG"><br>
